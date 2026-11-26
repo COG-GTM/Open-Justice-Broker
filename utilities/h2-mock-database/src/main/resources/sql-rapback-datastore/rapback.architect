@@ -603,6 +603,11 @@
     <index id="IDX179" populated="true" UUID="3f4c8afb-bcbf-49ae-b1d4-414b635fd31c" clustered="false" name="SUBSEQUENT_RESULTS_idx" physicalName="subsequent_results_idx" primaryKeyIndex="false" unique="false" >
      <index-column id="IDC180" populated="true" UUID="29d9fc36-67a2-4c94-be65-ffa287af21e7" ascendingOrDescending="UNSPECIFIED" column-ref="COL169" name="TRANSACTION_NUMBER" physicalName="TRANSACTION_NUMBER" />
     </index>
+    <index id="IDX9001" populated="true" UUID="972e23e6-b711-49b6-8093-97c97fd09283" clustered="false" name="SUBSEQUENT_RESULTS_notification_idx" physicalName="subsequent_results_notification_idx" primaryKeyIndex="false" unique="false" >
+     <index-column id="IDC9002" populated="true" UUID="e3fab2e8-a52b-4ac0-830e-ce8e4d26a896" ascendingOrDescending="UNSPECIFIED" column-ref="COL169" name="TRANSACTION_NUMBER" physicalName="TRANSACTION_NUMBER" />
+     <index-column id="IDC9003" populated="true" UUID="475ef8ef-1879-40e4-bbd4-d541454d97f7" ascendingOrDescending="UNSPECIFIED" column-ref="COL174" name="NOTIFICATION_INDICATOR" physicalName="NOTIFICATION_INDICATOR" />
+     <index-column id="IDC9004" populated="true" UUID="21141922-b5aa-4adb-9d9d-70db27b81810" ascendingOrDescending="UNSPECIFIED" column-ref="COL176" name="REPORT_TIMESTAMP" physicalName="REPORT_TIMESTAMP" />
+    </index>
    </folder>
   </table>
   <table id="TAB181" populated="true" UUID="d4a3244b-91c5-407b-a745-25385bf7a591" name="RESULTS_SENDER" objectType="TABLE" physicalName="RESULTS_SENDER" >
